@@ -1,5 +1,5 @@
 import javax.swing.JOptionPane;
-class mercado{
+class Mercado{
     public static void main(String[] args) {
         String[] produto = new String[11];
         String nome;

@@ -3,7 +3,6 @@ class Calculadora {
     public static void main(String[] args) {
     String leia;
     int n1, n2, a, s, d, m;
-
     for (int i = 1; i < 11;) {
         n1 = Integer.parseInt(JOptionPane.showInputDialog("Qual é o primeiro número?"));
         n2 = Integer.parseInt(JOptionPane.showInputDialog("Qual é o segundo número?"));

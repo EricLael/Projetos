@@ -1,5 +1,4 @@
 import javax.swing.JOptionPane;
-
 class Lanhouse {
     public static void main(String[] args) {
         String nome, scanner;

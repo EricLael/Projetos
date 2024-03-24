@@ -1,5 +1,4 @@
 import javax.swing.JOptionPane;
-
 public class Mercado2 {
     public static void main(String[] args) {
         String nome, scanner;

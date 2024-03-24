@@ -37,16 +37,16 @@ class Lanhouse {
             }
         }
         if (tempo == 0) {
-            JOptionPane.showInputDialog("Sacola de compras\n\n" + nome + " escolheu o serviço Premium, ele poderá usar os computadores por " + tempop + " horas. \n\nO total de sua conta ficou em " + total + " reais. \n\nItens: \n" + mensagem + "\n\nQual é a forma de pagamento? \n\n[1] Cartão de Crédito \n[2] Cartão de Débito \n[3] Dinheiro");
-            JOptionPane.showMessageDialog(null, "Obrigado por escolher nossos serviços! :)");
+            JOptionPane.showInputDialog("Sacola de compras\n\n" + nome + " escolheu o serviço Premium, ele poderá usar os computadores por " + tempop + " horas. \n\nO total de sua conta ficou em " + total + " reais. \n\nItens: \n" + mensagem + "\n\nQual é a forma de pagamento? \n\n[1] Cartão de Crédito \n[2] Cartão de Débito \n[3] Dinheiro \n[4] Pix");
+            JOptionPane.showMessageDialog(null, "Muito obrigado por escolher nossos serviços! :)");
         }
         if (tempop == 0) {
-            JOptionPane.showInputDialog("Sacola de compras\n\n" + nome + " escolheu o serviço Básico, ele poderá usar os computadores por " + tempo + " horas. \n\nO total de sua conta ficou em " + total + " reais. \n\nItens: \n" + mensagem + "\n\nQual é a forma de pagamento? \n\n[1] Cartão de Crédito \n[2] Cartão de Débito \n[3] Dinheiro");
-            JOptionPane.showMessageDialog(null, "Obrigado por escolher nossos serviços! :)");
+            JOptionPane.showInputDialog("Sacola de compras\n\n" + nome + " escolheu o serviço Básico, ele poderá usar os computadores por " + tempo + " horas. \n\nO total de sua conta ficou em " + total + " reais. \n\nItens: \n" + mensagem + "\n\nQual é a forma de pagamento? \n\n[1] Cartão de Crédito \n[2] Cartão de Débito \n[3] Dinheiro \n[4] Pix");
+            JOptionPane.showMessageDialog(null, "Muito obrigado por escolher nossos serviços! :)");
         }
         if (tempop >= 1 && tempo >= 1) {
-            JOptionPane.showInputDialog("Sacola de compras\n\n" + nome + " escolheu tanto o serviço Básico quanto o serviço Premium! \n\nEle poderá usar os computadores Básicos por " + tempo + " horas, \ne também poderá usar os computadores Premium por " + tempop + " horas. \n\nO total de sua conta ficou em " + total + " reais. \n\nItens: \n" + mensagem + "\n\nQual é a forma de pagamento? \n\n[1] Cartão de Crédito \n[2] Cartão de Débito \n[3] Dinheiro");
-            JOptionPane.showMessageDialog(null, "Obrigado por escolher nossos serviços! :)");
+            JOptionPane.showInputDialog("Sacola de compras\n\n" + nome + " escolheu tanto o serviço Básico quanto o serviço Premium! \n\nEle poderá usar os computadores Básicos por " + tempo + " horas, \ne também poderá usar os computadores Premium por " + tempop + " horas. \n\nO total de sua conta ficou em " + total + " reais. \n\nItens: \n" + mensagem + "\n\nQual é a forma de pagamento? \n\n[1] Cartão de Crédito \n[2] Cartão de Débito \n[3] Dinheiro \n[4] Pix");
+            JOptionPane.showMessageDialog(null, "Muito obrigado por escolher nossos serviços! :)");
         }
     }
 }

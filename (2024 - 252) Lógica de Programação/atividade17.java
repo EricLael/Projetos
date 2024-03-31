@@ -9,7 +9,7 @@ public class atividade17 {
     if (leia[i] >= 10 && leia[i] <= 150) {
       armazena.append(leia[i]).append("\n");
         }
-      }
+    }
     JOptionPane.showMessageDialog(null, armazena);
     }
 }

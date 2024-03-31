@@ -9,7 +9,7 @@ public class atividade15 {
   }
   else if (n1 > 200 || n1 < 100 ) {
     JOptionPane.showMessageDialog(null, n1 + " Não está entre 100 e 200!");
-    }
+  }
   }
 }
 

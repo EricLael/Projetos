@@ -10,6 +10,6 @@ public class atividade14 {
   }
   if (n2 < n1) {
     JOptionPane.showMessageDialog(null, " n1: " + n1 + " É o número maior!");
-    }
+  }
   }
 }

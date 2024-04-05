@@ -1,4 +1,4 @@
-<h1>Curso no Senac</h1>
+<h1 style="display: flex; align-items: center;">Curso no <img src="https://logodownload.org/wp-content/uploads/2014/10/senac-logo-4.png" alt="Senac Logo" height="50" style="margin-left: 10px;"></h1>
 
 <p>Explore meu repositório GitHub, onde guardo os projetos que desenvolvi durante o curso de Jovem Programador no Senac em 2024. Aqui você encontrará todos os meus projetos em Java, cada um contando uma parte da minha jornada de aprendizado e crescimento na programação. Venha descobrir!</p>
 

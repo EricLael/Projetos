@@ -1,4 +1,4 @@
-<h1>Curso no Cedup</h1>
+Curso no Cedup
 
 <p>Explore meu repositório GitHub, onde guardo os projetos que desenvolvi durante o curso de Informática no Cedup em 2024. Aqui você encontrará todos os meus projetos em Java, cada um contando uma parte da minha jornada de aprendizado e crescimento na programação. Venha descobrir!</p>
 

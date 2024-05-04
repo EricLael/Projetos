@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner
 public class JogoFilme {
     
     Scanner scanner = new Scanner(System.in);

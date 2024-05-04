@@ -5,7 +5,7 @@ public class JogoFilme {
     
     String leitor, filme;
     String[] pistas = new String[5];
-    int pontuacao = 0;
+    int pontuacao;
 
     // Jogador 1
     public void pistas() {
@@ -23,55 +23,22 @@ public class JogoFilme {
     }
     // Jogador 2
     public void jogador2() {
-        // Pista 1
-        System.out.println("A primeira pista é: " + pistas[0]);
+        for (int i = 0; i < 5; i++) {
+        System.out.println("A " + (i + 1) + " pista é: " + pistas[i]);
         leitor = scanner.nextLine().toLowerCase();
+        pontuacao = 100 - (20 * i);
         if (leitor.equals(filme)) {
-            pontuacao = 100;
-            System.out.println("Você acertou! \n" +
-                               "Sua pontuação ficou em: " + pontuacao + " pontos.");
+            pontuacao();
             return;
         }
-        // Pista 2
-        System.out.println("A segunda pista é: " + pistas[1]);
-        leitor = scanner.nextLine().toLowerCase();
-        if (leitor.equals(filme)) {
-            pontuacao = 75;
-            System.out.println("Você acertou! \n" +
-                               "Sua pontuação ficou em: " + pontuacao + " pontos.");
-            return;
         }
-        // Pista 3
-        System.out.println("A terceira pista é: " + pistas[2]);
-        leitor = scanner.nextLine().toLowerCase();
-        if (leitor.equals(filme)) {
-            pontuacao = 50;
-            System.out.println("Você acertou! \n" +
-                               "Sua pontuação ficou em: " + pontuacao + " pontos.");
-            return;
-        }
-        // Pista 4
-        System.out.println("A quarta pista é: " + pistas[3]);
-        leitor = scanner.nextLine().toLowerCase();
-        if (leitor.equals(filme)) {
-            pontuacao = 25;
-            System.out.println("Você acertou! \n" +
-                               "Sua pontuação ficou em: " + pontuacao + " pontos.");
-            return;
-        }
-        // Pista 5
-        System.out.println("A quinta pista é: " + pistas[4]);
-        leitor = scanner.nextLine().toLowerCase();
-        if (leitor.equals(filme)) {
-            pontuacao = 10;
-            System.out.println("Você acertou! \n" +
-                               "Sua pontuação ficou em: " + pontuacao + " pontos.");
-            return;
-        }
-        System.out.println("Você errou todas!");
-        System.out.println("Sua pontuação ficou em: " + pontuacao + " pontos.");
+        System.out.println("Você errou todas.");
     }
-    public static void main(String[] args) {
+    public void pontuacao() {
+        System.out.println("Você acertou! \n" +
+                           "Sua pontuação é de: " + pontuacao + " pontos");
+    }
+     public static void main(String[] args) {
         JogoFilme comunicador = new JogoFilme();
         comunicador.filme();
         comunicador.pistas();
